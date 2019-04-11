@@ -7,6 +7,7 @@
 #define CRYPTOPP_ENABLE_NAMESPACE_WEAK 1
 #include <md5.h>
 
+// YOU MUST RUN IT WITH RELEASE X64 MODE OR REBUILD cryptlib IN DEBUG MODE. 
 int main()
 {
 	const std::string key{ "yzbqklnj" };
